@@ -5,6 +5,7 @@
  * ~/robots example source for Software Engineering.
  *
  * @author Tanya L. Crenshaw, Nathan Schmedake
+ * @author David Leon
  * @since August 2013
  *
  */
@@ -35,10 +36,10 @@ void robotPrintAscii(void)
   blank = blank +30;
   printf("\n\n"
 	 "UWR: Unidentified Wheeled Robot\n"
-	 "%s    i_i    \n"
+	 "%s    V_V   \n"
 	 "%s   [@_@]   \n"
 	 "%s  /|___|\\ \n"
-	 "%s   d   b   \n",blank, blank, blank, blank);
+	 "%s   Y   Y   \n",blank, blank, blank, blank);
 
   blank = blank - 10;
 }
