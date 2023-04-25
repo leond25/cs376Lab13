@@ -7,7 +7,7 @@
  * @author Tanya L. Crenshaw, Nathan Schmedake
  * @since August 2013
  *
- * change by Connor
+ * change by Connor Sisourath
  */
 
 #include "robot.h"
