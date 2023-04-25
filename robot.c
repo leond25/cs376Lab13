@@ -34,6 +34,10 @@ void robotPrintAscii(void)
   int i;
   char* blank = "                              ";
   blank = blank +30;
+
+int z; 
+for(z = 0; z < 3; z++) {
+ 
   printf("\n\n"
 	 "UWR: Unidentified Wheeled Robot\n"
 	 "%s    V_V   \n"
@@ -42,8 +46,9 @@ void robotPrintAscii(void)
 	 "%s   Y   Y   \n",blank, blank, blank, blank);
 
   blank = blank - 10;
+     
 }
-
+}
 /**
  * dalekPrintAscii
  *
